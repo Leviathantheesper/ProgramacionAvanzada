@@ -24,7 +24,7 @@ def csv_reader(file_name):
 
 line_count = 0
 for line in csv_reader('yield_example.py'):
-    if line_count > 10:
+    if line_count > 31:
         pdb.set_trace()
     line_count += 1
 
